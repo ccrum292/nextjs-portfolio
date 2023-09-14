@@ -1,6 +1,8 @@
 import ProjectCard from "@/components/ProjectCard";
+import ExperienceCard from "@/components/ExperienceCard";
 import SideNav from "@/components/SideNav";
 import projectDataArr from '../../lib/project-data.json';
+import experienceDataArr from '../../lib/experience-data.json';
 
 
 export default function Home() {
@@ -15,16 +17,15 @@ export default function Home() {
         <section className="pb-10 lg:scroll-mt-10" id="projects-section">
           <h2 className="text-xl font-semibold mb-4 lg:static sticky top-0 text-slate-300 bg-slate-900 py-2">Projects</h2>
           <div className="flex flex-col gap-12">
-            <ProjectCard projectData={projectDataArr[0]} />
-            <ProjectCard projectData={projectDataArr[1]} />
-
+            {projectDataArr.map((projectData) => <ProjectCard projectData={projectData} />)}
           </div>
-
         </section>
         <section className="pb-10 lg:scroll-mt-10" id="experience-section">
           <h2 className="text-xl font-semibold mb-4 lg:static sticky top-0 text-slate-300 bg-slate-900 py-2">Experience</h2>
+          <div className="flex flex-col gap-12">
+            {experienceDataArr.map((experienceData) => <ExperienceCard experienceData={experienceData} />)}
+          </div>
         </section>
-
       </main>
     </div>
   )

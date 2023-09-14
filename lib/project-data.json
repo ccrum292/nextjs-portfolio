@@ -26,6 +26,7 @@
     "deployedHref": "https://pf03.vercel.app/troop925/bbq2022",
     "techUsedArr": [
       "Next.js",
+      "TypeScript",
       "Redux",
       "MUI",
       "Supabase (PostgreSQL)",

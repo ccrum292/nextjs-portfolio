@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Coding Boot Camp Instructor",
+    "org": "Vanderbilt / edX",
+    "orgLocation": "Nashville, TN",
+    "time": "2023 – Present",
+    "listItemsArr": [
+      "Lecture on HTML, CSS, JS, Node.js, React, SQL, and other web technologies",
+      "Monitor and assist students in small group environments",
+      "Maintain Class Git Repository"
+    ]
+  },
+  {
+    "title": "Full-Stack Web Developer, Part Owner and Managing Member",
+    "org": "Paperless Fundraisers, llc",
+    "orgLocation": "Rock Hill, SC",
+    "time": "2022 – Present",
+    "listItemsArr": [
+      "Full-Stack Web Development",
+      "Database Design",
+      "UI / UX Design"
+    ]
+  },
+  {
+    "title": "Coding Boot Camp Teaching Assistant",
+    "org": "UNC Chapel Hill / UNC Charlotte / edX",
+    "orgLocation": "Chapel Hill, NC",
+    "time": "2020 – 2022",
+    "listItemsArr": [
+      "Assist students in learning HTML, CSS, JS, Node.js, React, SQL, and other web technologies",
+      "Monitor and educate students in small group environments",
+      "Maintain Class Git Repository"
+    ]
+  },
+  {
+    "title": "Coding Boot Camp Graduate",
+    "org": "UNC Charlotte / edX",
+    "orgLocation": "Charlotte, NC",
+    "time": "2020",
+    "listItemsArr": [
+      "Fulltime 24-week intensive program",
+      "Covered HTML5, CSS3, Javascript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS"
+    ]
+  }
+]

@@ -17,18 +17,22 @@ export default function ProjectCard({ projectData }) {
           ))}
         </div>
         {deployedHref && (
-          <a href={deployedHref} target="_blank">
-            <h4 className="hover:text-green-400 hover:font-semibold">
-              Deployed Application
-            </h4>
-          </a>
+          <div>
+            <a href={deployedHref} target="_blank" className="inline">
+              <h4 className="hover:text-green-400 hover:font-semibold inline">
+                Deployed Application
+              </h4>
+            </a>
+          </div>
         )}
         {githubHref && (
-          <a href={githubHref} target="_blank">
-            <h4 className="hover:text-green-400 hover:font-semibold">
-              GitHub Repository
-            </h4>
-          </a>
+          <div>
+            <a href={githubHref} target="_blank" className="inline">
+              <h4 className="hover:text-green-400 hover:font-semibold inline">
+                GitHub Repository
+              </h4>
+            </a>
+          </div>
         )}
       </div>
     </div>

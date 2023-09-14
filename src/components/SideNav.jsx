@@ -1,4 +1,18 @@
+"use client";
+import { useState } from "react";
+
 export default function SideNav() {
+  const [showEmailCopied, setShowEmailCopied] = useState(false);
+
+  const handleClipBoardOnClick = () => {
+    console.log("hit");
+    navigator.clipboard.writeText("caleb@paperlessfundraisers.com");
+    setShowEmailCopied(true);
+    setTimeout(() => {
+      setShowEmailCopied(false);
+    }, 2000);
+  };
+
   return (
     <div className="lg:sticky lg:top-0 max-h-screen lg:basis-3/12 flex flex-col gap-8 py-10 bg-slate-900">
       <div>
@@ -56,6 +70,23 @@ export default function SideNav() {
         <li className="mr-4 text-slate-400">
           <a
             className="hover:text-slate-200 cursor-pointer"
+            onClick={handleClipBoardOnClick}
+            href="mailto:caleb@paperlessfundraisers.com"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z" />
+            </svg>
+          </a>
+        </li>
+        <li className="mr-4 text-slate-400">
+          <a
+            className="hover:text-slate-200 cursor-pointer"
             href="/Caleb-Crum-Resume.pdf"
             download
           >
@@ -72,6 +103,9 @@ export default function SideNav() {
           </a>
         </li>
       </ul>
+      {showEmailCopied && (
+        <p className="text-slate-400">Email Copied to Clipboard</p>
+      )}
     </div>
   );
 }
