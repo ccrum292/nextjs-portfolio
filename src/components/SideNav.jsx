@@ -5,15 +5,21 @@ export default function SideNav() {
   const [showEmailCopied, setShowEmailCopied] = useState(false);
 
   const handleClipBoardOnClick = async () => {
-    try {
-      await navigator.clipboard.writeText("caleb@paperlessfundraisers.com");
-      setShowEmailCopied(true);
-      setTimeout(() => {
-        setShowEmailCopied(false);
-      }, 2000);
-    } catch (err) {
-      console.log(err);
-    }
+    // try {
+    //   await navigator.clipboard.writeText("caleb@paperlessfundraisers.com");
+    // } catch (err) {
+    //   console.log(err);
+    // }
+    const textField = document.createElement("textarea");
+    textField.innerText = "caleb@paperlessfundraisers.com";
+    document.body.appendChild(textField);
+    textField.select();
+    document.execCommand("copy");
+    textField.remove();
+    setShowEmailCopied(true);
+    setTimeout(() => {
+      setShowEmailCopied(false);
+    }, 2000);
   };
 
   return (
