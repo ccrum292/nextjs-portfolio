@@ -2,7 +2,7 @@ export default function ProjectCard({ projectData }) {
   const { imgSrc, imgAlt, title, text, techUsedArr, deployedHref, githubHref } =
     projectData;
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2" key={title}>
       <a href={deployedHref} target="_blank">
         <img src={imgSrc} alt={imgAlt} />
       </a>
@@ -10,8 +10,8 @@ export default function ProjectCard({ projectData }) {
       <div className="flex flex-col gap-3">
         <p className="text-slate-400">{text}</p>
         <div className="flex flex-wrap gap-3">
-          {techUsedArr.map((content) => (
-            <div className="bg-cyan-600 p-1 rounded">
+          {techUsedArr.map((content, i) => (
+            <div className="bg-cyan-600 p-1 rounded" key={i}>
               <p className="text-sm">{content}</p>
             </div>
           ))}

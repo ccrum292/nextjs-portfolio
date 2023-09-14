@@ -4,13 +4,16 @@ import { useState } from "react";
 export default function SideNav() {
   const [showEmailCopied, setShowEmailCopied] = useState(false);
 
-  const handleClipBoardOnClick = () => {
-    console.log("hit");
-    navigator.clipboard.writeText("caleb@paperlessfundraisers.com");
-    setShowEmailCopied(true);
-    setTimeout(() => {
-      setShowEmailCopied(false);
-    }, 2000);
+  const handleClipBoardOnClick = async () => {
+    try {
+      await navigator.clipboard.writeText("caleb@paperlessfundraisers.com");
+      setShowEmailCopied(true);
+      setTimeout(() => {
+        setShowEmailCopied(false);
+      }, 2000);
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   return (
