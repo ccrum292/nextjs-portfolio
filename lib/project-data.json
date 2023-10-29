@@ -23,7 +23,7 @@
     "text": "Fundraising Simplified: An online system for running product selling fundraisers.",
     "imgSrc": "/img/Paperless-Fundraisers-Desktop.PNG",
     "imgAlt": "Paperless Fundraisers website screen shot",
-    "deployedHref": "https://pf03.vercel.app/troop925/bbq2022",
+    "deployedHref": "https://pf03.vercel.app/troop925/bbq2023",
     "techUsedArr": [
       "Next.js",
       "TypeScript",
