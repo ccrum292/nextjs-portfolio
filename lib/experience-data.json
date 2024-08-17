@@ -1,5 +1,16 @@
 [
   {
+    "title": "Applications Developer",
+    "org": "Centers for Disease Control and Prevention / DRT Strategies",
+    "orgLocation": "Atlanta, GA",
+    "time": "2023 – Present",
+    "listItemsArr": [
+      "Full Time Government Contractor for CDC/ATSDR",
+      "Developed Custom Data Visualization Applications with D3.js and Visx for the Geospatial Research, Analysis, and Services Program (GRASP)",
+      "Primarily worked on the US Cancer Statistics Data Visualizations Application"
+    ]
+  },
+  {
     "title": "Coding Boot Camp Instructor",
     "org": "Vanderbilt / edX",
     "orgLocation": "Nashville, TN",
