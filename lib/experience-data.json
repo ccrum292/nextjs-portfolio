@@ -1,9 +1,20 @@
 [
   {
+    "title": "Full-Stack Developer",
+    "org": "GEOPH - Geospatial Public Health",
+    "orgLocation": "FL",
+    "time": "2024 – Present",
+    "listItemsArr": [
+      "Developing an Express back-end to organize and collect vaccine campaign data.",
+      "Creating a React web app to create vaccine campaign configurations for GEOPH’s custom hardware.",
+      "Assisting with a React Native app that acts as a bridge between GEOPH custom hardware and different back-end services."
+    ]
+  },
+  {
     "title": "Applications Developer",
     "org": "Centers for Disease Control and Prevention / DRT Strategies",
     "orgLocation": "Atlanta, GA",
-    "time": "2023 – Present",
+    "time": "2023 – 2024",
     "listItemsArr": [
       "Full Time Government Contractor for CDC/ATSDR",
       "Developed Custom Data Visualization Applications with D3.js and Visx for the Geospatial Research, Analysis, and Services Program (GRASP)",
