@@ -1,5 +1,29 @@
 [
   {
+    "title": "GEOPH VB",
+    "text": "The GEOPH VB app serves as the official companion to GEOPH Vaccine Buddy devices, tailored for public health professionals engaged in field campaigns. It's primary use is for transferring geospatial data from the hardware to the back-end services for vaccine campaigns.",
+    "imgSrc": "/img/geoph-vb-desktop.PNG",
+    "imgAlt": "geoph vb screen shot",
+    "deployedHref": "https://play.google.com/store/apps/details?id=com.geoph_vb&utm_source=na_Med",
+    "techUsedArr": [
+      "React Native",
+      "Bluetooth",
+      "SQLite",
+      "Turso",
+      "Node.js",
+      "Express",
+      "Heroku"
+    ]
+  },
+  {
+    "title": "US Cancer Statistics Data Visualizations",
+    "text": "A data visualization application for the US Cancer Statistics program.",
+    "imgSrc": "/img/uscs-desktop.PNG",
+    "imgAlt": "us cancer statistics data visualizations screen shot",
+    "deployedHref": "https://gis.cdc.gov/Cancer/USCS/#/",
+    "techUsedArr": ["React", "D3.js", "Visx", "Bootstrap"]
+  },
+  {
     "title": "My-Flash-Cards",
     "text": "A flash card app with a drag and drop folder system, rich card content (images, etc), and dynamic study sessions.",
     "imgSrc": "/img/myflashcards-desktop.PNG",

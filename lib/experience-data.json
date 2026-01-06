@@ -2,12 +2,13 @@
   {
     "title": "Full-Stack Developer",
     "org": "GEOPH - Geospatial Public Health",
-    "orgLocation": "FL",
+    "orgLocation": "Atlanta, GA",
     "time": "2024 – Present",
     "listItemsArr": [
-      "Developing an Express back-end to organize and collect vaccine campaign data.",
-      "Creating a React web app to create vaccine campaign configurations for GEOPH’s custom hardware.",
-      "Assisting with a React Native app that acts as a bridge between GEOPH custom hardware and different back-end services."
+      "Developed an Express back-end to organize and collect vaccine campaign data.",
+      "Created a React web app to make vaccine campaign configurations for GEOPH’s custom hardware.",
+      "Developed a React Native app that acts as a bridge between GEOPH hardware and back-end services.",
+      "Built a Native Android app with Java to update firmware on GEOPH hardware."
     ]
   },
   {

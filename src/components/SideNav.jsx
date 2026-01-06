@@ -11,7 +11,7 @@ export default function SideNav() {
     //   console.log(err);
     // }
     const textField = document.createElement("textarea");
-    textField.innerText = "caleb@paperlessfundraisers.com";
+    textField.innerText = "ccrum292@gmail.com";
     document.body.appendChild(textField);
     textField.select();
     document.execCommand("copy");
@@ -80,7 +80,7 @@ export default function SideNav() {
           <a
             className="hover:text-slate-200 cursor-pointer"
             onClick={handleClipBoardOnClick}
-            href="mailto:caleb@paperlessfundraisers.com"
+            href="mailto:ccrum292@gmail.com"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
